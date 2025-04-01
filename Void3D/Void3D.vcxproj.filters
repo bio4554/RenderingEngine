@@ -1,0 +1,188 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Buffer">
+      <UniqueIdentifier>{ae414848-bff6-4b01-8f6d-443c6770e0ac}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="D3D12">
+      <UniqueIdentifier>{76c8a395-70a2-478e-b2f5-25beac4da8fb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Models">
+      <UniqueIdentifier>{921e707b-8f90-4cc2-8c5a-940ab49c8f07}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shader">
+      <UniqueIdentifier>{c4d7cc8f-1bed-46b9-a230-946b53c6d5b0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Image">
+      <UniqueIdentifier>{d25774bd-459f-432d-97e0-ef1dd430f41b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="D3D12\Alloc">
+      <UniqueIdentifier>{bcdc956a-c0f7-4ca7-b660-6dea01d8848d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="D3D12\Buffer">
+      <UniqueIdentifier>{073735c9-c420-4cd0-a012-50756ed2cb54}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="D3D12\Desc">
+      <UniqueIdentifier>{01e799fb-b5d8-441b-9f92-a139c277f119}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="D3D12\Resource">
+      <UniqueIdentifier>{7eed35b0-2077-4814-b88f-1ae38c1b447f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="D3D12\Pipeline">
+      <UniqueIdentifier>{1bd6373e-7d5e-42c7-a865-78bbd7bbba29}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="D3D12\Image">
+      <UniqueIdentifier>{15d6d134-889a-471d-b701-a9c8db35c11d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Threading">
+      <UniqueIdentifier>{b949fc7f-fe71-444a-a5da-600fa3f74dd9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource">
+      <UniqueIdentifier>{6fb284f9-b772-4078-a0d8-f63d349cade3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="D3D12\Shaders">
+      <UniqueIdentifier>{d9961e5d-0efb-4a50-849e-2c20f10e6a78}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="D3D12\CommandList">
+      <UniqueIdentifier>{656384de-ba10-41b9-af4d-229add152837}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="pch.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="VoidBuffers.h">
+      <Filter>Buffer</Filter>
+    </ClInclude>
+    <ClInclude Include="D3D12_Translator.h">
+      <Filter>D3D12</Filter>
+    </ClInclude>
+    <ClInclude Include="VoidRenderContext_D3D12.h">
+      <Filter>D3D12</Filter>
+    </ClInclude>
+    <ClInclude Include="D3D12MemAlloc.h">
+      <Filter>D3D12\Alloc</Filter>
+    </ClInclude>
+    <ClInclude Include="D3D12_VoidBuffers.h">
+      <Filter>D3D12\Buffer</Filter>
+    </ClInclude>
+    <ClInclude Include="DescriptorAllocator.h">
+      <Filter>D3D12\Desc</Filter>
+    </ClInclude>
+    <ClInclude Include="DescriptorRingBuffer.h">
+      <Filter>D3D12\Desc</Filter>
+    </ClInclude>
+    <ClInclude Include="D3D12_VoidResource.h">
+      <Filter>D3D12\Resource</Filter>
+    </ClInclude>
+    <ClInclude Include="D3D12_PipelineState.h">
+      <Filter>D3D12\Pipeline</Filter>
+    </ClInclude>
+    <ClInclude Include="D3D12_PipelineStateObjectCache.h">
+      <Filter>D3D12\Pipeline</Filter>
+    </ClInclude>
+    <ClInclude Include="D3D12_VoidShader.h">
+      <Filter>D3D12\Pipeline</Filter>
+    </ClInclude>
+    <ClInclude Include="D3D12_VoidImage.h">
+      <Filter>D3D12\Image</Filter>
+    </ClInclude>
+    <ClInclude Include="D3D12_VoidSampler.h">
+      <Filter>D3D12\Image</Filter>
+    </ClInclude>
+    <ClInclude Include="VoidGraphicsStructs.h">
+      <Filter>Models</Filter>
+    </ClInclude>
+    <ClInclude Include="VoidShader.h">
+      <Filter>Shader</Filter>
+    </ClInclude>
+    <ClInclude Include="VoidImage.h">
+      <Filter>Image</Filter>
+    </ClInclude>
+    <ClInclude Include="VoidSampler.h">
+      <Filter>Image</Filter>
+    </ClInclude>
+    <ClInclude Include="concurrentqueue.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="VoidAssertUtil.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="IVoidRenderContext.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="VoidSpinLock.h">
+      <Filter>Threading</Filter>
+    </ClInclude>
+    <ClInclude Include="VoidResource.h">
+      <Filter>Resource</Filter>
+    </ClInclude>
+    <ClInclude Include="IVoidGraphicsCommandList.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="VoidGraphicsCommandList_D3D12.h">
+      <Filter>D3D12\CommandList</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="pch.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="VoidBuffers.cpp">
+      <Filter>Buffer</Filter>
+    </ClCompile>
+    <ClCompile Include="VoidRenderContext_D3D12.cpp">
+      <Filter>D3D12</Filter>
+    </ClCompile>
+    <ClCompile Include="D3D12MemAlloc.cpp">
+      <Filter>D3D12\Alloc</Filter>
+    </ClCompile>
+    <ClCompile Include="D3D12_PipelineState.cpp">
+      <Filter>D3D12\Pipeline</Filter>
+    </ClCompile>
+    <ClCompile Include="D3D12_PipelineStateObjectCache.cpp">
+      <Filter>D3D12\Pipeline</Filter>
+    </ClCompile>
+    <ClCompile Include="VoidShader.cpp">
+      <Filter>Shader</Filter>
+    </ClCompile>
+    <ClCompile Include="D3D12_VoidResource.cpp">
+      <Filter>D3D12\Resource</Filter>
+    </ClCompile>
+    <ClCompile Include="D3D12_VoidSampler.cpp">
+      <Filter>D3D12\Image</Filter>
+    </ClCompile>
+    <ClCompile Include="IVoidRenderContext.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="VoidGraphicsCommandList_D3D12.cpp">
+      <Filter>D3D12\CommandList</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="..\VoidStar\binding_model.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <FxCompile Include="BlitVert.hlsl">
+      <Filter>D3D12\Shaders</Filter>
+    </FxCompile>
+    <FxCompile Include="BlitPixel.hlsl">
+      <Filter>D3D12\Shaders</Filter>
+    </FxCompile>
+    <FxCompile Include="GenMips.hlsl">
+      <Filter>D3D12\Shaders</Filter>
+    </FxCompile>
+  </ItemGroup>
+</Project>

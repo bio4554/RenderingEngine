@@ -1,0 +1,7 @@
+Shaders have 3 resource slot namespaces: texture/samplers, uniform buffers, storage buffers
+Each namespace has 16 slots.
+
+Set 0 : sampler : binding 0-15
+Set 1 : uniform : binding 0-15
+Set 2 : storage : binding 0-15
+Set 3 : texture : binding 0-15
